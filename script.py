@@ -20,7 +20,7 @@ def handle_command(update, context):
         handle_message(update, context)
 
 # Set up the Telegram bot and add the command and message handlers
-updater = Updater('YOUR_API_TOKEN', use_context=True)
+updater = Updater('6035735532:AAG-zSUZr2gzF9ZbWlfxSwhor8lxQfISuI0', use_context=True)
 updater.dispatcher.add_handler(CommandHandler('addsub', handle_command))
 updater.dispatcher.add_handler(MessageHandler(Filters.document, handle_message))
 
